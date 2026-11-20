@@ -37,7 +37,7 @@ This project focuses on PDF hash extraction, password cracking, and flag hunting
 
 Extracted password hashes from the assigned PDF files using the PDF Hash Extractor.
 
-![PDF Hash Extraction](pdf-hash-extraction.png)
+![PDF Hash Extraction](pdf-hash-extraction1.png)
 
 ### 4.2 Dictionary Attack
 
@@ -54,7 +54,7 @@ Successfully recovered passwords from two assigned PDF files.
 | PDF 2 | `password1` |
 | PDF 3 | `1qaz2wsx` |
 
-![Password Cracked](password-cracked.png)
+![Password Cracked](password-cracked-2.png)
 
 ### 4.4 Captured Flags
 
@@ -62,13 +62,13 @@ Successfully recovered passwords from two assigned PDF files.
 
 `nw{networkwalks_persistence_jtr_270521}`
 
-![PDF 2 Flag](pdf2-flag.png)
+![PDF 2 Flag](flag2.png)
 
 **PDF 3:**
 
 `nw{networkwalks_flag_260821_1}`
 
-![PDF 3 Flag](pdf3-flag.png)
+![PDF 3 Flag](flag3.png)
 
 ---
 
@@ -94,7 +94,7 @@ Successfully recovered the password and unlocked PDF 1 to capture the flag.
 
 `nw{cybersecurity_flag_captured_2608}`
 
-![PDF 1 Flag](pdf1-flag.png)
+![PDF 1 Flag](flag1.png)
 
 ---
 
