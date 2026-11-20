@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔐 PASSWORD CRACKING & PDF PASSWORD RECOVERY
+# 🔐 PASSWORD CRACKING & FLAG HUNTING
 
 ### Networkwalks | Week 03 | Batch B084
 
@@ -10,15 +10,15 @@
 
 ## 1. Introduction
 
-This project focuses on PDF hash extraction, password security, and dictionary attacks. I practiced recovering passwords from protected PDF files using Networkwalks tools and John the Ripper.
+This project focuses on PDF hash extraction, password cracking, and flag hunting. During Week 3, I explored dictionary attacks using Networkwalks online tools and Johnny (John the Ripper).
 
 ## 2. Objectives
 
 - Extract password hashes from PDF files.
 - Understand dictionary attacks.
-- Use password-cracking tools.
-- Explore Johnny and John the Ripper.
-- Recover PDF passwords and capture CTF flags.
+- Explore Networkwalks Password Cracker.
+- Use Johnny and John the Ripper.
+- Recover PDF passwords and capture flags.
 
 ## 3. Tools Used
 
@@ -29,68 +29,87 @@ This project focuses on PDF hash extraction, password security, and dictionary a
 - John the Ripper Jumbo
 - Wordlists
 
-## 4. Practical Activities
+---
+
+## 4. Networkwalks Flag Hunting
 
 ### 4.1 PDF Hash Extraction
 
-Extracted password hashes from the assigned PDF files and saved them in text format.
+Extracted password hashes from the assigned PDF files using the PDF Hash Extractor.
 
 ![PDF Hash Extraction](pdf-hash-extraction.png)
 
 ### 4.2 Dictionary Attack
 
-Used the Networkwalks Password Cracker to perform dictionary attacks against the extracted hashes.
+Used the Networkwalks Password Cracker to perform dictionary attacks against the extracted PDF hashes.
 
 ![Dictionary Attack](dictionary-attack.png)
 
-![Password Cracked](password-cracked.png)
+### 4.3 Password Recovery
 
-### 4.3 PDF Password Recovery
-
-Successfully recovered passwords from all three PDF files.
+Successfully recovered passwords from two assigned PDF files.
 
 | PDF | Recovered Password |
 |---|---|
-| PDF 1 | `good-luck` |
 | PDF 2 | `password1` |
 | PDF 3 | `1qaz2wsx` |
 
-### 4.4 John the Ripper & Johnny
+![Password Cracked](password-cracked.png)
 
-Installed John the Ripper Jumbo and explored its configuration and password recovery functionality through Johnny.
+### 4.4 Captured Flags
 
-![Johnny Interface](johnny-interface.png)
+**PDF 2:**
 
-![John Configuration](john-configuration.png)
-
-## 5. Captured Flags
-
-**PDF 1**
-`nw{cybersecurity_flag_captured_2608}`
-
-![PDF 1 Flag](pdf1-flag.png)
-
-**PDF 2**
 `nw{networkwalks_persistence_jtr_270521}`
 
 ![PDF 2 Flag](pdf2-flag.png)
 
-**PDF 3**
+**PDF 3:**
+
 `nw{networkwalks_flag_260821_1}`
 
 ![PDF 3 Flag](pdf3-flag.png)
+
+---
+
+## 5. Johnny – John the Ripper Flag Hunting
+
+### 5.1 Tool Setup
+
+Downloaded and configured John the Ripper Jumbo with Johnny, its graphical user interface.
+
+![Johnny Interface](johnny-interface.png)
+
+### 5.2 Password Cracking
+
+Loaded the extracted PDF hash into Johnny and performed password recovery using the available wordlist.
+
+![John Configuration](john-configuration.png)
+
+**Recovered Password:** `good-luck`
+
+### 5.3 Captured Flag
+
+Successfully recovered the password and unlocked PDF 1 to capture the flag.
+
+`nw{cybersecurity_flag_captured_2608}`
+
+![PDF 1 Flag](pdf1-flag.png)
+
+---
 
 ## 6. Key Learnings
 
 - PDF hash extraction.
 - Dictionary-based password attacks.
-- Wordlist usage.
-- John the Ripper and Johnny.
-- Password security and recovery.
+- Wordlist-based password recovery.
+- Using Networkwalks Password Cracker.
+- Working with Johnny and John the Ripper.
+- Understanding password security.
 
 ## 7. Conclusion
 
-Successfully completed Week 3 practical exercises, recovered all three PDF passwords, and captured all assigned flags. This practical improved my understanding of password hashing and dictionary-based attacks.
+Successfully completed Week 3 password-cracking exercises using Networkwalks tools and Johnny (John the Ripper). Recovered all three PDF passwords and captured all assigned flags.
 
 ## 8. Author
 
